@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 
 
-const SearchForm2 = () => {
+const SearchForm2 = (props) => {
   const router = useRouter()
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -14,6 +14,7 @@ const SearchForm2 = () => {
   return (
     <form onClick={handleSubmit}>
       <div className="row">
+        {props.onlyFindBtn ? null :
         <div className="form-group col-lg-5 col-md-12 col-sm-12">
           <label className="title">What</label>
           <span className="icon flaticon-search-1"></span>
@@ -23,15 +24,29 @@ const SearchForm2 = () => {
             placeholder="Job title, keywords, or company"
           />
         </div>
+        }
         {/* <!-- Form Group --> */}
 
+        {props.onlyFindBtn ? null :
         <div className="form-group col-lg-4 col-md-12 col-sm-12 location">
           <label className="title">Where</label>
           <span className="icon flaticon-map-locator"></span>
           <input type="text" name="field_name" placeholder="City or postcode" />
         </div>
+        }
         {/* <!-- Form Group --> */}
 
+        {props.onlyFindBtn ?
+        <div className="form-group col-lg-3 col-md-12 col-sm-12 btn-box" data-aos="fade-up" data-aos-delay="500">
+          <button
+            type="submit"
+            className="theme-btn btn-style-one"
+            onClick={() => router.push("/job-list-v3")}
+          >
+            <span className="btn-title">Find Auditions</span>
+          </button>
+        </div>
+        :
         <div className="form-group col-lg-3 col-md-12 col-sm-12 btn-box">
           <button
             type="submit"
@@ -41,6 +56,7 @@ const SearchForm2 = () => {
             <span className="btn-title">Find Jobs</span>
           </button>
         </div>
+        }
         {/* <!-- Form Group --> */}
       </div>
     </form>

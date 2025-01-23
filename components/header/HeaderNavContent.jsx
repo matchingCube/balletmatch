@@ -15,9 +15,16 @@ import {
   isActiveLink,
   isActiveParentChaild,
 } from "../../utils/linkActiveChecker";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const HeaderNavContent = () => {
+  const router = useRouter();
+  const handleHomeNavigation = () => {
+    router.push('/');
+  };
+  const handleJobNavigation = () => {
+    router.push('/job-list-v3');
+  }
   return (
     <>
       <nav className="nav main-menu">
@@ -26,10 +33,11 @@ const HeaderNavContent = () => {
           <li
             className={`${
               isActiveParent(homeItems, usePathname()) ? "current" : ""
-            } dropdown`}
+            }`} // removed dropdown class
+            onClick={handleHomeNavigation}
           >
             <span>Home</span>
-            <div className="mega-menu">
+            {/* <div className="mega-menu">
               <div className="mega-menu-bar row pt-0">
                 {homeItems.map((item) => (
                   <div
@@ -53,18 +61,19 @@ const HeaderNavContent = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </li>
           {/* End homepage menu items */}
 
           <li
             className={`${
               isActiveParent(findJobItems, usePathname()) ? "current" : ""
-            } dropdown has-mega-menu`}
+            } has-mega-menu`}
             id="has-mega-menu"
+            onClick={handleJobNavigation}
           >
             <span>Find Jobs</span>
-            <div className="mega-menu">
+            {/* <div className="mega-menu">
               <div className="mega-menu-bar row">
                 {findJobItems.map((item) => (
                   <div
@@ -89,7 +98,7 @@ const HeaderNavContent = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </li>
           {/* End findjobs menu items */}
 

@@ -4,8 +4,8 @@ import { useRouter } from "next/navigation";
 
 
 
-const SearchForm3 = () => {
-    const router = useRouter()
+const SearchForm3 = (props) => {
+  const router = useRouter();
   const handleSubmit = (event) => {
     event.preventDefault();
   };
@@ -14,6 +14,7 @@ const SearchForm3 = () => {
     <form onClick={handleSubmit}>
       <div className="row">
         {/* <!-- Form Group --> */}
+        {!props.onlyFindBtn ?
         <div className="form-group col-lg-4 col-md-12 col-sm-12">
           <span className="icon flaticon-search-1"></span>
           <input
@@ -21,15 +22,17 @@ const SearchForm3 = () => {
             name="field_name"
             placeholder="Job title, keywords, or company"
           />
-        </div>
+        </div> : null}
 
         {/* <!-- Form Group --> */}
+        {!props.onlyFindBtn ?
         <div className="form-group col-lg-3 col-md-12 col-sm-12 location">
           <span className="icon flaticon-map-locator"></span>
           <input type="text" name="field_name" placeholder="City or postcode" />
-        </div>
+        </div> : null}
 
         {/* <!-- Form Group --> */}
+        {!props.onlyFindBtn ?
         <div className="form-group col-lg-3 col-md-12 col-sm-12 category">
           <span className="icon flaticon-briefcase"></span>
           <select className="chosen-single form-select">
@@ -43,9 +46,20 @@ const SearchForm3 = () => {
             <option defaultValue="105">Marketing</option>
             <option value="107">Project Management</option>
           </select>
-        </div>
+        </div> : null}
 
         {/* <!-- Form Group --> */}
+        {props.onlyFindBtn ?
+        <div className="form-group col-lg-2 col-md-12 col-sm-12 text-right" data-aos-delay="700" data-aos="fade-up">
+          <button
+            type="submit"
+            className="theme-btn btn-style-one"
+            onClick={() => router.push("/job-list-v3")}
+          >
+            Find Auditions
+          </button>
+        </div>
+        :
         <div className="form-group col-lg-2 col-md-12 col-sm-12 text-right">
           <button
             type="submit"
@@ -55,6 +69,7 @@ const SearchForm3 = () => {
             Find Jobs
           </button>
         </div>
+        }
       </div>
     </form>
   );

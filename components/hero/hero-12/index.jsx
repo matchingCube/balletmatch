@@ -16,11 +16,12 @@ const index = () => {
           className="main-image"
           data-aos-delay="1500"
           data-aos="fade-left"
+          style={{right: 0}}
         >
           <Image
-            width={916}
-            height={516}
-            src="/images/index-12/header/image.png"
+            width={410}
+            height={530}
+            src="/images/index-12/header/image.jpg"
             alt="index"
           />
         </figure>
@@ -33,22 +34,22 @@ const index = () => {
             <div className="inner-column">
               <div className="title-box" data-aos="fade-up">
                 <h3>
-                  Join us & Explore
-                  <br /> Thousands of Jobs
+                  Ballet Match
                 </h3>
                 <div className="text">
-                  Find Jobs, Employment & Career Opportunities
+                  Your one-stop shop for ballet auditions, training, and jobs
                 </div>
               </div>
 
               {/* <!-- Job Search Form --> */}
-              <div
+              {/* <div
                 className="job-search-form-two"
                 data-aos="fade-up"
                 data-aos-delay="500"
               >
                 <SearchForm2 />
-              </div>
+              </div> */}
+              <SearchForm2 onlyFindBtn={true} />
               {/* <!-- Job Search Form --> */}
 
               {/* <!-- Popular Search --> */}

@@ -10,7 +10,7 @@ const index = () => {
           <Image
             width={952}
             height={942}
-            src="/images/resource/banner-img-9.png"
+            src="/images/resource/banner-img-9.webp"
             alt="banner image"
           />
         </figure>
@@ -26,21 +26,21 @@ const index = () => {
                 data-aso-delay="500"
                 data-aos="fade-up"
               >
-                <h3>Find Candidate</h3>
+                <h3>The BALLET MATCH</h3>
                 <div className="text">
-                  Jobs & Job search. Find jobs in global. Executive jobs & work.
-                  Employment
+                  Your one-stop shop for ballet auditions, training, and jobs.
                 </div>
               </div>
               {/* End title box */}
 
-              <div
+              {/* <div
                 className="job-search-form"
                 data-aos-delay="700"
                 data-aos="fade-up"
               >
                 <SearchForm3 btnStyle="btn-style-one" />
-              </div>
+              </div> */}
+              <SearchForm3 btnStyle="btn-style-one" onlyFindBtn={true} />
               {/* <!-- Job Search Form --> */}
 
               <div className="bottom-box wow fadeInUp" data-wow-delay="1500ms">

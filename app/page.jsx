@@ -1,9 +1,9 @@
 import Wrapper from "@/layout/Wrapper";
-import Home from "@/components/home-1";
+import Home from "@/components/home-12";
 
 export const metadata = {
-  title: "Home-1 || Superio - Job Borad React NextJS Template",
-  description: "Superio - Job Borad React NextJS Template",
+  title: "Home || BalletMatch",
+  description: "BalletMatch",
 };
 
 export default function page() {

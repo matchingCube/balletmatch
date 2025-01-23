@@ -10,7 +10,7 @@ const Block4 = () => {
             <Image
               width={952}
               height={604}
-              src="/images/resource/jobseeker.png"
+              src="/images/resource/jobseeker.webp"
               alt="resources about block"
             />
           </figure>
