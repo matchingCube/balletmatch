@@ -3,9 +3,9 @@ import dynamic from "next/dynamic";
 import LogIn from "@/components/pages-menu/login";
 
 export const metadata = {
-  title: 'Login || Superio - Job Borad React NextJS Template',
+  title: 'Login || BalletMatch - Job Borad React NextJS Template',
   description:
-    'Superio - Job Borad React NextJS Template',
+    'BalletMatch - Job Borad React NextJS Template',
   
 }
 

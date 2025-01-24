@@ -3,9 +3,9 @@ import Seo from "../../../components/common/Seo";
 import AllApplicants from "../../../components/dashboard-pages/employers-dashboard/all-applicants";
 
 export const metadata = {
-  title: 'All Applicants || Superio - Job Borad React NextJS Template',
+  title: 'All Applicants || BalletMatch - Job Borad React NextJS Template',
   description:
-    'Superio - Job Borad React NextJS Template',
+    'BalletMatch - Job Borad React NextJS Template',
   
 }
 
