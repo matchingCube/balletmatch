@@ -246,7 +246,8 @@ Main Header
 }
 
 .main-menu .navigation > li > ul > li > span:hover,
-.main-menu .navigation > li > ul > li > a:hover {
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > span.hoverChange:hover {
   color: var(--primary-color);
 }
 .main-menu .navigation > li > ul > li > span.current,

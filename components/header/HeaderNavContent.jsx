@@ -36,7 +36,7 @@ const HeaderNavContent = () => {
             }`} // removed dropdown class
             onClick={handleHomeNavigation}
           >
-            <span>Home</span>
+            <span className="hoverChange">Home</span>
             {/* <div className="mega-menu">
               <div className="mega-menu-bar row pt-0">
                 {homeItems.map((item) => (
@@ -72,7 +72,7 @@ const HeaderNavContent = () => {
             id="has-mega-menu"
             onClick={handleJobNavigation}
           >
-            <span>Find Jobs</span>
+            <span className="hoverChange">Find Jobs</span>
             {/* <div className="mega-menu">
               <div className="mega-menu-bar row">
                 {findJobItems.map((item) => (
@@ -102,7 +102,7 @@ const HeaderNavContent = () => {
           </li>
           {/* End findjobs menu items */}
 
-          <li
+          {/* <li
             className={`${
               isActiveParent(employerItems, usePathname()) ||
               usePathname()?.split("/")[1] === "employers-dashboard"
@@ -151,7 +151,7 @@ const HeaderNavContent = () => {
                 </Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           {/* End Employers menu items */}
 
           <li
@@ -208,7 +208,7 @@ const HeaderNavContent = () => {
           </li>
           {/* End Candidates menu items */}
 
-          <li
+          {/* <li
             className={`${
               isActiveParentChaild(blogItems, usePathname()) ? "current" : ""
             } dropdown`}
@@ -226,10 +226,10 @@ const HeaderNavContent = () => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           {/* End Blog menu items */}
 
-          <li
+          {/* <li
             className={`${
               isActiveParentChaild(pageItems, usePathname()) ||
               isActiveParentChaild(shopItems[0].items, usePathname())
@@ -277,7 +277,7 @@ const HeaderNavContent = () => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           {/* End Pages menu items */}
         </ul>
       </nav>

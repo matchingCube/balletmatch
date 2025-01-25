@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="description"
-          content="BalletMatch - Job Borad React NextJS Template"
+          content="BalletMatch - Job Board React NextJS Template"
         />
         <meta name="ibthemes" content="ATFN" />
 

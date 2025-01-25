@@ -9,7 +9,7 @@ const FormInfoBox = () => {
     { value: "Digital & Creative", label: "Digital & Creative" },
     { value: "Retail", label: "Retail" },
     { value: "Human Resources", label: "Human Resources" },
-    { value: "Managemnet", label: "Managemnet" },
+    { value: "Management", label: "Management" },
     { value: "Accounting & Finance", label: "Accounting & Finance" },
     { value: "Digital", label: "Digital" },
     { value: "Creative Art", label: "Creative Art" },
@@ -27,7 +27,7 @@ const FormInfoBox = () => {
         {/* <!-- Input --> */}
         <div className="form-group col-lg-6 col-md-12">
           <label>Job Title</label>
-          <input type="text" name="name" placeholder="UI Designer" required />
+          <input type="text" name="name" placeholder="Ballet Dancer" required />
         </div>
 
         {/* <!-- Input --> */}

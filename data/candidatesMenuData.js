@@ -64,11 +64,18 @@ module.exports = [
   },
   {
     id: 10,
-    name: "Change Password",
-    icon: "la-lock",
+    name: "Account Setting",
+    icon: "la-cog",
     routePath: "/candidates-dashboard/change-password",
     active: "",
   },
+  // {
+  //   id: 10,
+  //   name: "Change Password",
+  //   icon: "la-lock",
+  //   routePath: "/candidates-dashboard/change-password",
+  //   active: "",
+  // },
   {
     id: 11,
     name: "Logout",
@@ -76,11 +83,11 @@ module.exports = [
     routePath: "/login",
     active: "",
   },
-  {
-    id: 12,
-    name: "Delete Profile",
-    icon: "la-trash",
-    routePath: "/",
-    active: "",
-  },
+  // {
+  //   id: 12,
+  //   name: "Delete Profile",
+  //   icon: "la-trash",
+  //   routePath: "/",
+  //   active: "",
+  // },
 ];

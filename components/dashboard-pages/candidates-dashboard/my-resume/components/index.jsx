@@ -7,22 +7,100 @@ import Awards from "./Awards";
 import Education from "./Education";
 import Experiences from "./Experiences";
 import SkillsMultiple from "./SkillsMultiple";
+import LogoUpload from "../../my-profile/components/my-profile/LogoUpload";
 
 const index = () => {
   const handleSubmit = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
   };
 
   return (
     <form className="default-form" onClick={handleSubmit}>
       <div className="row">
-        <div className="form-group col-lg-6 col-md-12">
+        {/* <div className="form-group col-lg-6 col-md-12">
           <label>Select Your CV</label>
           <select className="chosen-single form-select">
             <option>My CV</option>
           </select>
-        </div>
+        </div> */}
+        <LogoUpload />
+
         {/* <!-- Input --> */}
+        <div className="form-group col-lg-6 col-md-12">
+          <label>Full Name</label>
+          <input type="text" name="name" placeholder="Jerome" required />
+        </div>
+
+        {/* <!-- Input --> */}
+        <div className="form-group col-lg-6 col-md-12">
+          <label>Job Title</label>
+          <input type="text" name="title" placeholder="Ballet Dancer" required />
+        </div>
+
+        {/* <!-- Input --> */}
+        <div className="form-group col-lg-6 col-md-12">
+          <label>Phone</label>
+          <input
+            type="text"
+            name="phone"
+            placeholder="0 123 456 7890"
+            required
+          />
+        </div>
+
+        {/* <!-- Input --> */}
+        <div className="form-group col-lg-6 col-md-12">
+          <label>Email address</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="balletdancer@gmail.com"
+            required
+          />
+        </div>
+
+        {/* <!-- Input --> */}
+        <div className="form-group col-lg-3 col-md-12">
+          <label>Gender</label>
+          <select className="chosen-single form-select" required>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Non-Binary</option>
+            <option>Other</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+
+        {/* <!-- Input --> */}
+        <div className="form-group col-lg-3 col-md-12">
+          <label>Height</label>
+          <input
+            type="text"
+            name="height"
+            placeholder="180cm"
+            required
+          />
+        </div>
+
+        {/* <!-- Input --> */}
+        <div className="form-group col-lg-3 col-md-12">
+          <label>Date of Birth</label>
+          <input
+            type="text"
+            name="birth"
+            placeholder="mm/dd/yyyy"
+          />
+        </div>
+
+        {/* <!-- Input --> */}
+        <div className="form-group col-lg-3 col-md-12">
+          <label>Nationality</label>
+          <input
+            type="text"
+            name="nation"
+            placeholder="Australia"
+          />
+        </div>
 
         <div className="form-group col-lg-12 col-md-12">
           <label>Description</label>
@@ -40,7 +118,7 @@ const index = () => {
         {/* <!--  education and word-experiences --> */}
 
         <div className="form-group col-lg-6 col-md-12">
-          <AddPortfolio />
+          <AddPortfolio id="upload_album" label="Album" />
         </div>
         {/* <!-- End more portfolio upload --> */}
 
