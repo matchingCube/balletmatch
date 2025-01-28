@@ -1,10 +1,10 @@
-const Education = () => {
+const Repertoire = () => {
   return (
-    <div className="resume-outer">
+    <div className="resume-outer theme-pink">
       <div className="upper-title">
-        <h4>Education</h4>
+        <h4>Repertoire Performed</h4>
         <button className="add-info-btn">
-          <span className="icon flaticon-plus"></span> Add Education
+          <span className="icon flaticon-plus"></span> Add Repertoire Performed
         </button>
       </div>
       {/* <!-- Resume BLock --> */}
@@ -13,8 +13,8 @@ const Education = () => {
           <span className="name">M</span>
           <div className="title-box">
             <div className="info-box">
-              <h3>Bachelors in Fine Arts</h3>
-              <span>Modern College</span>
+              <h3>Repertoire Performed in Fine Arts</h3>
+              <span>Modern Audition</span>
             </div>
             <div className="edit-box">
               <span className="year">2012 - 2014</span>
@@ -39,11 +39,11 @@ const Education = () => {
       {/* <!-- Resume BLock --> */}
       <div className="resume-block">
         <div className="inner">
-          <span className="name">H</span>
+          <span className="name">B</span>
           <div className="title-box">
             <div className="info-box">
-              <h3>Computer Science</h3>
-              <span>Harvard University</span>
+              <h3>Repertoire Performed in DDC</h3>
+              <span>DDC LLC</span>
             </div>
             <div className="edit-box">
               <span className="year">2008 - 2012</span>
@@ -68,4 +68,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Repertoire;

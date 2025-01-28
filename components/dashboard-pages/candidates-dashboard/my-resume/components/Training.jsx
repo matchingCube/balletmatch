@@ -1,20 +1,20 @@
-const Education = () => {
+const Training = () => {
   return (
-    <div className="resume-outer">
+    <div className="resume-outer theme-green">
       <div className="upper-title">
-        <h4>Education</h4>
+        <h4>Training</h4>
         <button className="add-info-btn">
-          <span className="icon flaticon-plus"></span> Add Education
+          <span className="icon flaticon-plus"></span> Add Training
         </button>
       </div>
       {/* <!-- Resume BLock --> */}
       <div className="resume-block">
         <div className="inner">
-          <span className="name">M</span>
+          <span className="name">T</span>
           <div className="title-box">
             <div className="info-box">
-              <h3>Bachelors in Fine Arts</h3>
-              <span>Modern College</span>
+              <h3>Training in Fine Arts</h3>
+              <span>Modern School</span>
             </div>
             <div className="edit-box">
               <span className="year">2012 - 2014</span>
@@ -39,11 +39,11 @@ const Education = () => {
       {/* <!-- Resume BLock --> */}
       <div className="resume-block">
         <div className="inner">
-          <span className="name">H</span>
+          <span className="name">B</span>
           <div className="title-box">
             <div className="info-box">
-              <h3>Computer Science</h3>
-              <span>Harvard University</span>
+              <h3>Ballet Training Course</h3>
+              <span>Dancing School</span>
             </div>
             <div className="edit-box">
               <span className="year">2008 - 2012</span>
@@ -68,4 +68,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Training;

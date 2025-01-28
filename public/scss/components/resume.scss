@@ -63,6 +63,10 @@
   border: 2px dashed #ced4e1;
 }
 
+.uploadButton .uploadButton-button.headShot {
+  height: 200px;
+}
+
 .uploadButton .uploadButton-button:hover {
   border-color: #021f4a;
 }
@@ -90,6 +94,16 @@
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+
+.uploadButton .uploadButton-button.hasImage:before {
+  display: none !important;
+}
+
+.uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .widget-content .default-form .form-group {
@@ -456,4 +470,34 @@
 
 .resume-outer.theme-yellow .resume-block .info-box span {
   color: rgba(249, 171, 0, 1);
+}
+
+.resume-outer.theme-green .resume-block .edit-box .year,
+.resume-outer.theme-green .resume-block .name {
+  background: #dcfce7;
+  color: rgba(69, 197, 80, 1);
+}
+
+.resume-outer.theme-green .resume-block .info-box span {
+  color: rgba(69, 197, 80, 1);
+}
+
+.resume-outer.theme-purple .resume-block .edit-box .year,
+.resume-outer.theme-purple .resume-block .name {
+  background: #eedcfc;
+  color: rgba(129, 69, 197, 1);
+}
+
+.resume-outer.theme-purple .resume-block .info-box span {
+  color: rgba(129, 69, 197, 1);
+}
+
+.resume-outer.theme-pink .resume-block .edit-box .year,
+.resume-outer.theme-pink .resume-block .name {
+  background: #fcdcee;
+  color: rgba(197, 69, 144, 1);
+}
+
+.resume-outer.theme-pink .resume-block .info-box span {
+  color: rgba(197, 69, 144, 1);
 }

@@ -8,6 +8,11 @@ import Education from "./Education";
 import Experiences from "./Experiences";
 import SkillsMultiple from "./SkillsMultiple";
 import LogoUpload from "../../my-profile/components/my-profile/LogoUpload";
+import countrycodes from "@/data/countrycodes";
+import heightData from "@/data/heightData.";
+import Training from "./Training";
+import SummerIntensive from "./SummerIntensive";
+import Repertoire from "./Repertoire";
 
 const index = () => {
   const handleSubmit = (event) => {
@@ -74,32 +79,30 @@ const index = () => {
         {/* <!-- Input --> */}
         <div className="form-group col-lg-3 col-md-12">
           <label>Height</label>
-          <input
-            type="text"
-            name="height"
-            placeholder="180cm"
-            required
-          />
+          <select className="chosen-single form-select" required>
+            {heightData.map((data) => (
+              <option>{data.height}</option>
+            ))}
+          </select>
         </div>
 
         {/* <!-- Input --> */}
         <div className="form-group col-lg-3 col-md-12">
           <label>Date of Birth</label>
           <input
-            type="text"
+            type="date"
             name="birth"
-            placeholder="mm/dd/yyyy"
           />
         </div>
 
         {/* <!-- Input --> */}
         <div className="form-group col-lg-3 col-md-12">
           <label>Nationality</label>
-          <input
-            type="text"
-            name="nation"
-            placeholder="Australia"
-          />
+          <select className="chosen-single form-select" required>
+            {countrycodes.map((country) => (
+              <option>{country.name}</option>
+            ))}
+          </select>
         </div>
 
         <div className="form-group col-lg-12 col-md-12">
@@ -127,6 +130,24 @@ const index = () => {
           <Awards />
         </div>
         {/* <!-- End Award --> */}
+
+        <div className="form-group col-lg-12 col-md-12">
+          {/* <!-- Resume / Training --> */}
+          <Training />
+        </div>
+        {/* <!-- End Training --> */}
+
+        <div className="form-group col-lg-12 col-md-12">
+          {/* <!-- Resume / Summer Intensive --> */}
+          <SummerIntensive />
+        </div>
+        {/* <!-- End Summer Intensive --> */}
+
+        <div className="form-group col-lg-12 col-md-12">
+          {/* <!-- Resume / Repertoire Performed --> */}
+          <Repertoire />
+        </div>
+        {/* <!-- End Repertoire Performed --> */}
 
         <div className="form-group col-lg-6 col-md-12">
           <label>Skills </label>

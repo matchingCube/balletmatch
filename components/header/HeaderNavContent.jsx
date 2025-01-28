@@ -102,7 +102,7 @@ const HeaderNavContent = () => {
           </li>
           {/* End findjobs menu items */}
 
-          {/* <li
+          <li
             className={`${
               isActiveParent(employerItems, usePathname()) ||
               usePathname()?.split("/")[1] === "employers-dashboard"
@@ -151,7 +151,7 @@ const HeaderNavContent = () => {
                 </Link>
               </li>
             </ul>
-          </li> */}
+          </li>
           {/* End Employers menu items */}
 
           <li
