@@ -20,7 +20,7 @@ export const metadata = {
 
 const CandidateSingleDynamicV2 = ({ params }) => {
   const id = params.id;
-  const candidate = candidates.find((item) => item.id == id) || candidate[0];
+  const candidate = candidates.find((item) => item.id == id) || candidates[0];
 
   return (
     <>
