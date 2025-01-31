@@ -310,14 +310,14 @@ export const pageItems = [
   //   name: "Pricing",
   //   routePath: "/pricing",
   // },
-  {
-    name: "FAQ's",
-    routePath: "/faq",
-  },
-  {
-    name: "Terms",
-    routePath: "/terms",
-  },
+  // {
+  //   name: "FAQ's",
+  //   routePath: "/faq",
+  // },
+  // {
+  //   name: "Terms",
+  //   routePath: "/terms",
+  // },
   // {
   //   name: "Invoice",
   //   routePath: "/invoice",
@@ -326,10 +326,10 @@ export const pageItems = [
     name: "Contact",
     routePath: "/contact",
   },
-  {
-    name: "404",
-    routePath: "/404",
-  },
+  // {
+  //   name: "404",
+  //   routePath: "/404",
+  // },
 ];
 
 export const shopItems = [

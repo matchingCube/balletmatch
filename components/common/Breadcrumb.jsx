@@ -1,6 +1,7 @@
 import Link from "next/link";
+import BlogSearchForm from "../blog-meu-pages/blog-list-v3/BlogSearchForm";
 
-const Breadcrumb = ({ title = "", meta = "" }) => {
+const Breadcrumb = ({ title = "", meta = "", hasSearch = false }) => {
   return (
     <section className="page-title">
       <div className="auto-container">
@@ -13,6 +14,12 @@ const Breadcrumb = ({ title = "", meta = "" }) => {
             <li>{meta}</li>
           </ul>
         </div>
+        {hasSearch
+          ?
+        <div className="auto-container">
+          <BlogSearchForm />
+        </div>
+        : null }
       </div>
     </section>
   );

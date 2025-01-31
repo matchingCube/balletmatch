@@ -25,6 +25,9 @@ const HeaderNavContent = () => {
   const handleJobNavigation = () => {
     router.push('/job-list-v3');
   }
+  const handleBlogNavigation = () => {
+    router.push('/blog-list-v3');
+  }
   return (
     <>
       <nav className="nav main-menu">
@@ -211,10 +214,11 @@ const HeaderNavContent = () => {
           <li
             className={`${
               isActiveParentChaild(blogItems, usePathname()) ? "current" : ""
-            } dropdown`}
+            }`}
+            onClick={handleBlogNavigation}
           >
-            <span>Blog</span>
-            <ul>
+            <span className="hoverChange">Blog</span>
+            {/* <ul>
               {blogItems.map((item, i) => (
                 <li
                   className={
@@ -225,7 +229,7 @@ const HeaderNavContent = () => {
                   <Link href={item.routePath}>{item.name}</Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </li>
           {/* End Blog menu items */}
 

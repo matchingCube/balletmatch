@@ -199,7 +199,7 @@ const index = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link href="/blog-list-v1" className="button-icon -arrow">
+              <Link href="/blog-list-v3" className="button-icon -arrow">
                 Browse All
                 <span className="fa fa-angle-right ms-1"></span>
               </Link>
