@@ -209,10 +209,10 @@ export const employerItems = [
         name: "Employers List V3",
         routePath: "/employers-list-v3",
       },
-      {
-        name: "Employers List V4",
-        routePath: "/employers-list-v4",
-      },
+      // {
+      //   name: "Employers List V4",
+      //   routePath: "/employers-list-v4",
+      // },
     ],
   },
   {
@@ -252,14 +252,14 @@ export const candidateItems = [
         name: "Candidates List V3",
         routePath: "/candidates-list-v3",
       },
-      {
-        name: "Candidates List V4",
-        routePath: "/candidates-list-v4",
-      },
-      {
-        name: "Candidates List V5",
-        routePath: "/candidates-list-v5",
-      },
+      // {
+      //   name: "Candidates List V4",
+      //   routePath: "/candidates-list-v4",
+      // },
+      // {
+      //   name: "Candidates List V5",
+      //   routePath: "/candidates-list-v5",
+      // },
     ],
   },
   {

@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import Cart from "@/components/shop/cart";
 
 export const metadata = {
-  title: "Cart || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "Cart || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const index = () => {

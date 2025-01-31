@@ -15,8 +15,8 @@ import ApplyJobModalContent from "@/components/job-single-pages/shared-component
 import Image from "next/image";
 
 export const metadata = {
-  title: "Job Single Dyanmic V1 || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "Job Single Dyanmic V1 || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const JobSingleDynamicV1 = ({ params }) => {

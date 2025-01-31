@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Page Not Found || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "Page Not Found || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const index = () => {

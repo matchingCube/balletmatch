@@ -3,8 +3,8 @@ import React from "react";
 import Home from "@/components/home-5";
 
 export const metadata = {
-  title: "Home-5 || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "Home-5 || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const index = () => {

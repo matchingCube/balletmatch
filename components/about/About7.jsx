@@ -42,7 +42,7 @@ const About7 = () => {
                     skills to use in the organization.
                   </div>
                 </div>
-                <Link href="/job-list-v9" className="theme-btn -blue">
+                <Link href="/candidates-dashboard/my-resume" className="theme-btn -blue">
                   Discover More
                 </Link>
               </div>

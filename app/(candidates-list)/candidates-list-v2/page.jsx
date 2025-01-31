@@ -3,9 +3,9 @@ import dynamic from "next/dynamic";
 import CandidatesList from "@/components/candidates-listing-pages/candidates-list-v2";
 
 export const metadata = {
-  title: 'Candidates List V2 || BalletMatch - Job Borad React NextJS Template',
+  title: 'Candidates List V2 || BalletMatch - Job Board React NextJS Template',
   description:
-    'BalletMatch - Job Borad React NextJS Template',
+    'BalletMatch - Job Board React NextJS Template',
   
 }
 

@@ -7,8 +7,7 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 export default function Map() {
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
+      lat: -34.9285,      lng: 138.6007,
     },
     zoom: 11,
   };
@@ -21,7 +20,7 @@ export default function Map() {
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
     >
-      <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
+      <AnyReactComponent lat={defaultProps.center.lat} lng={defaultProps.center.lng} text="My Marker" />
     </GoogleMapReact>
   );
 }

@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import JobAlerts from "@/components/dashboard-pages/candidates-dashboard/job-alerts";
 
 export const metadata = {
-  title: "My Job Alerts || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "My Job Alerts || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const index = () => {

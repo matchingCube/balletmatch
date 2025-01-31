@@ -208,7 +208,7 @@ const HeaderNavContent = () => {
           </li>
           {/* End Candidates menu items */}
 
-          {/* <li
+          <li
             className={`${
               isActiveParentChaild(blogItems, usePathname()) ? "current" : ""
             } dropdown`}
@@ -226,10 +226,10 @@ const HeaderNavContent = () => {
                 </li>
               ))}
             </ul>
-          </li> */}
+          </li>
           {/* End Blog menu items */}
 
-          {/* <li
+          <li
             className={`${
               isActiveParentChaild(pageItems, usePathname()) ||
               isActiveParentChaild(shopItems[0].items, usePathname())
@@ -277,7 +277,7 @@ const HeaderNavContent = () => {
                 </li>
               ))}
             </ul>
-          </li> */}
+          </li>
           {/* End Pages menu items */}
         </ul>
       </nav>

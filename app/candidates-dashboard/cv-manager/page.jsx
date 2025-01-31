@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import CvManager from "@/components/dashboard-pages/candidates-dashboard/cv-manager";
 
 export const metadata = {
-  title: "CV Manager || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "CV Manager || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const index = () => {

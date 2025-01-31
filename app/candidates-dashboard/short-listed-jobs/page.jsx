@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import ShortListedJobs from "@/components/dashboard-pages/candidates-dashboard/short-listed-jobs";
 
 export const metadata = {
-  title: "Short ListedJobs || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "Short ListedJobs || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const index = () => {

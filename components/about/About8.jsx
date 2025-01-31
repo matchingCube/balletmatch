@@ -68,7 +68,7 @@ const About8 = () => {
                   {/* blcok item */}
 
                   <Link
-                    href="/job-list-v4"
+                    href="/job-list-v3"
                     className="theme-btn -blue"
                   >
                     Discover More

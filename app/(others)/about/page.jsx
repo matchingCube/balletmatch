@@ -3,9 +3,9 @@ import dynamic from "next/dynamic";
 import About from "@/components/pages-menu/about";
 
 export const metadata = {
-  title: 'About || BalletMatch - Job Borad React NextJS Template',
+  title: 'About || BalletMatch - Job Board React NextJS Template',
   description:
-    'BalletMatch - Job Borad React NextJS Template',
+    'BalletMatch - Job Board React NextJS Template',
   
 }
 

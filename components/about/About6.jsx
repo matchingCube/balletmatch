@@ -31,7 +31,7 @@ const About6 = () => {
                   <li>Capitalize on low hanging fruit to identify</li>
                   <li>But I must explain to you how all this</li>
                 </ul>
-                <Link href="/job-list-v8" className="theme-btn -blue">
+                <Link href="/job-list-v3" className="theme-btn -blue">
                   Discover More
                 </Link>
               </div>

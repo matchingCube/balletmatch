@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import Checkout from "@/components/shop/checkout";
 
 export const metadata = {
-  title: "Checkout || BalletMatch - Job Borad React NextJS Template",
-  description: "BalletMatch - Job Borad React NextJS Template",
+  title: "Checkout || BalletMatch - Job Board React NextJS Template",
+  description: "BalletMatch - Job Board React NextJS Template",
 };
 
 const index = () => {

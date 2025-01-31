@@ -13,7 +13,7 @@ const JobCategorie6 = () => {
             <div className="content">
               <span className={`icon ${item.icon}`}></span>
               <h4>
-                <Link href="/job-list-v6">{item.catTitle}</Link>
+                <Link href="/job-list-v3">{item.catTitle}</Link>
               </h4>
               <p>({item.jobNumber} open positions)</p>
             </div>

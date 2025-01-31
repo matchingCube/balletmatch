@@ -3,9 +3,9 @@ import dynamic from "next/dynamic";
 import Pricing from "@/components/pages-menu/pricing";
 
 export const metadata = {
-  title: 'Pricing || BalletMatch - Job Borad React NextJS Template',
+  title: 'Pricing || BalletMatch - Job Board React NextJS Template',
   description:
-    'BalletMatch - Job Borad React NextJS Template',
+    'BalletMatch - Job Board React NextJS Template',
   
 }
 

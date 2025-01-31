@@ -58,7 +58,7 @@ const index = () => {
             </div>
             {/* End .col */}
             <div className="col-auto md:mt-16">
-              <Link href="/job-list-v6" className="button-icon -arrow">
+              <Link href="/job-list-v3" className="button-icon -arrow">
                 Browse All
                 <span className="fa fa-angle-right ms-1"></span>
               </Link>
@@ -96,7 +96,7 @@ const index = () => {
             </div>
             {/* End .col */}
             <div className="col-auto">
-              <Link href="/job-list-v6" className="button-icon -arrow">
+              <Link href="/job-list-v3" className="button-icon -arrow">
                 Featured
                 <span className="fa fa-angle-right ms-1"></span>
               </Link>
@@ -144,7 +144,7 @@ const index = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link href="/candidates-list-v3" className="button-icon -arrow">
+              <Link href="/candidates-list-v1" className="button-icon -arrow">
                 Browse All
                 <span className="fa fa-angle-right ms-1"></span>
               </Link>

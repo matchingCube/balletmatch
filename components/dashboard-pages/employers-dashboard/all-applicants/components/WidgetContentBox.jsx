@@ -11,7 +11,7 @@ const WidgetContentBox = () => {
       <div className="tabs-box">
         <Tabs>
           <div className="aplicants-upper-bar">
-            <h6>Senior Product Designer</h6>
+            <h6></h6>
 
             <TabList className="aplicantion-status tab-buttons clearfix">
               <Tab className="tab-btn totals"> Total(s): 6</Tab>

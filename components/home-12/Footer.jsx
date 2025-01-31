@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <p className="phone-num">
                   <span>Call us </span>
-                  <a href="thebeehost@support.com">123 456 7890</a>
+                  <a href="support@balletmatch.com">123 456 7890</a>
                 </p>
                 <p className="address">
                   329 Queensberry Street, North Melbourne VIC
