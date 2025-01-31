@@ -13,7 +13,7 @@ const RelatedJobs = () => {
                 <Image width={50} height={49} src={item.logo} alt="resource" />
               </span>
               <h4>
-                <Link href={`/job-single-v1/${item.id}`}>{item.jobTitle}</Link>
+                <Link href={`/job-single-v5/${item.id}`}>{item.jobTitle}</Link>
               </h4>
 
               <ul className="job-info">

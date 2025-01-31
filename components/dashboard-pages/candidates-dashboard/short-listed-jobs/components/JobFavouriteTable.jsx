@@ -52,7 +52,7 @@ const JobFavouriteTable = () => {
                               />
                             </span>
                             <h4>
-                              <Link href={`/job-single-v3/${item.id}`}>
+                              <Link href={`/job-single-v5/${item.id}`}>
                                 {item.jobTitle}
                               </Link>
                             </h4>

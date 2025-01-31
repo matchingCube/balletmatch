@@ -144,7 +144,7 @@ const index = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link href="/candidates-list-v1" className="button-icon -arrow">
+              <Link href="/candidates-list-v3" className="button-icon -arrow">
                 Browse All
                 <span className="fa fa-angle-right ms-1"></span>
               </Link>
@@ -199,10 +199,10 @@ const index = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <a href="#" className="button-icon -arrow">
+              <Link href="/blog-list-v1" className="button-icon -arrow">
                 Browse All
                 <span className="fa fa-angle-right ms-1"></span>
-              </a>
+              </Link>
             </div>
           </div>
           {/* End .col */}

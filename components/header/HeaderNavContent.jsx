@@ -112,7 +112,7 @@ const HeaderNavContent = () => {
           >
             <span>Employers</span>
             <ul>
-              {employerItems.map((item) => (
+              {/* {employerItems.map((item) => (
                 <li className="dropdown" key={item.id}>
                   <span
                     className={
@@ -138,7 +138,7 @@ const HeaderNavContent = () => {
                     ))}
                   </ul>
                 </li>
-              ))}
+              ))} */}
               <li
                 className={
                   usePathname()?.includes("/employers-dashboard")
@@ -166,7 +166,7 @@ const HeaderNavContent = () => {
           >
             <span>Candidates</span>
             <ul>
-              {candidateItems.map((item) => (
+              {/* {candidateItems.map((item) => (
                 <li className="dropdown" key={item.id}>
                   <span
                     className={
@@ -192,7 +192,7 @@ const HeaderNavContent = () => {
                     ))}
                   </ul>
                 </li>
-              ))}
+              ))} */}
               <li
                 className={
                   usePathname()?.includes("/candidates-dashboard/")
