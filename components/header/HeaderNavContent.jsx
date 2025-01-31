@@ -239,7 +239,7 @@ const HeaderNavContent = () => {
           >
             <span>Pages</span>
             <ul>
-              {shopItems.map((item) => (
+              {/* {shopItems.map((item) => (
                 <li className="dropdown" key={item.id}>
                   <span
                     className={`${
@@ -265,7 +265,7 @@ const HeaderNavContent = () => {
                     ))}
                   </ul>
                 </li>
-              ))}
+              ))} */}
               {pageItems.map((item, i) => (
                 <li
                   className={

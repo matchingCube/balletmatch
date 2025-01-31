@@ -33,13 +33,13 @@ const index = () => {
           <h3>Payments</h3>
           {/* <!--Accordian Box--> */}
           <ul className="accordion-box">
-            <FaqChild />
+            <FaqChild ide="payment_" />
           </ul>
 
           <h3>Suggestions</h3>
           {/* <!--Accordian Box--> */}
           <ul className="accordion-box mb-0">
-            <FaqChild />
+            <FaqChild ide="suggest_" />
           </ul>
         </div>
       </section>

@@ -1,24 +1,24 @@
-const FaqChild = () => {
+const FaqChild = (props) => {
   return (
     <>
-      <div className="accordion" id="accordionExample">
+      <div className="accordion" id={`${props.ide}accordionExample`}>
         <div className="accordion-item accordion block active-block">
           <h2 className="accordion-header">
             <button
               className="acc-btn accordion-button "
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
+              data-bs-target={`#${props.ide}collapseOne`}
               aria-expanded="true"
             >
               Why won&apos;t my payment go through?
             </button>
           </h2>
           <div
-            id="collapseOne"
+            id={`${props.ide}collapseOne`}
             className="accordion-collapse collapse show"
             aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample"
+            data-bs-parent={`#${props.ide}accordionExample`}
           >
             <div className="accordion-body ">
               <div className="content">
@@ -43,7 +43,7 @@ const FaqChild = () => {
               className="accordion-button acc-btn collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
+              data-bs-target={`#${props.ide}collapseTwo`}
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
@@ -51,10 +51,10 @@ const FaqChild = () => {
             </button>
           </h2>
           <div
-            id="collapseTwo"
+            id={`${props.ide}collapseTwo`}
             className="accordion-collapse collapse"
             aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample"
+            data-bs-parent={`#${props.ide}accordionExample`}
           >
             <div className="accordion-body">
               <div className="content">
@@ -79,7 +79,7 @@ const FaqChild = () => {
               className="accordion-button acc-btn collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
+              data-bs-target={`#${props.ide}collapseThree`}
               aria-expanded="false"
               aria-controls="collapseThree"
             >
@@ -87,10 +87,10 @@ const FaqChild = () => {
             </button>
           </h2>
           <div
-            id="collapseThree"
+            id={`${props.ide}collapseThree`}
             className="accordion-collapse collapse"
             aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample"
+            data-bs-parent={`#${props.ide}accordionExample`}
           >
             <div className="accordion-body">
               <div className="content">
@@ -115,7 +115,7 @@ const FaqChild = () => {
               className="accordion-button acc-btn collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseFour"
+              data-bs-target={`#${props.ide}collapseFour`}
               aria-expanded="false"
               aria-controls="collapseFour"
             >
@@ -123,10 +123,10 @@ const FaqChild = () => {
             </button>
           </h2>
           <div
-            id="collapseFour"
+            id={`${props.ide}collapseFour`}
             className="accordion-collapse collapse"
             aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample"
+            data-bs-parent={`#${props.ide}accordionExample`}
           >
             <div className="accordion-body">
               <div className="content">

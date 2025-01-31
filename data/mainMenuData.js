@@ -306,10 +306,10 @@ export const pageItems = [
     name: "About",
     routePath: "/about",
   },
-  {
-    name: "Pricing",
-    routePath: "/pricing",
-  },
+  // {
+  //   name: "Pricing",
+  //   routePath: "/pricing",
+  // },
   {
     name: "FAQ's",
     routePath: "/faq",
@@ -318,10 +318,10 @@ export const pageItems = [
     name: "Terms",
     routePath: "/terms",
   },
-  {
-    name: "Invoice",
-    routePath: "/invoice",
-  },
+  // {
+  //   name: "Invoice",
+  //   routePath: "/invoice",
+  // },
   {
     name: "Contact",
     routePath: "/contact",

@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import HeaderNavContent from "./HeaderNavContent";
 import Image from "next/image";
 
-const DefaulHeader2 = () => {
+const DefaulHeader2 = (props) => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -56,9 +56,16 @@ const DefaulHeader2 = () => {
           {/* <Link href="/candidates-dashboard/cv-manager" className="upload-cv">
             Upload your CV
           </Link> */}
+          {props.clientSide
+            ?
+          <Link href="/employers-dashboard/post-jobs" className="upload-cv">
+            Job Post
+          </Link>
+            :
           <Link href="/candidates-dashboard/my-resume" className="upload-cv">
             Resume
           </Link>
+          }
           {/* <!-- Login/Register --> */}
           <div className="btn-box">
             <a

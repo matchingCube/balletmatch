@@ -15,7 +15,7 @@ const Index = () => {
             <LoginPopup />
             {/* End Login Popup Modal */}
 
-            <DefaulHeader2 />
+            <DefaulHeader2 clientSide={true} />
             {/* End Header with upload cv btn */}
 
             <MobileMenu />
